@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "src/index.ts",
   "scripts": {
-    "prebuild": "rm -rf config",
-    "build": "tsc -p config",
+    "prebuild": "rm -rf dist",
+    "build": "tsc -p src",
     "preversion": "npm run build",
     "postversion": "git push origin --tags"
   },
