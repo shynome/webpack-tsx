@@ -5,5 +5,6 @@
 
 # 安装
 ```shell
-npm i webpack-tsx
+npm i -D webpack-tsx 
 ```
+**一定要以开发依赖进行安装,这里面的依赖全部是开发依赖**

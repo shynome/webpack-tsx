@@ -14,7 +14,7 @@
     "express-tsx"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@types/html-webpack-plugin": "^2.30.1",
     "@types/react": "^16.0.25",
     "@types/react-dom": "^16.0.3",
@@ -41,6 +41,9 @@
     "webpack": "^3.9.0",
     "webpack-dev-server": "^2.9.5",
     "webpack-merge": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
   },
   "author": "shynome"
 }
